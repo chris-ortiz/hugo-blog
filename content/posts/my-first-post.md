@@ -4,36 +4,6 @@ date = 2024-06-15T00:05:39+02:00
 draft = false
 +++
 
-# Event Storming and What you can do with the result
-
-### Definition of Event Storming:
-
-Event Storming is a collaborative workshop technique used primarily in software development and business analysis to explore complex domains, map out processes, and uncover insights through visual representation and structured discussions.
-
-### How to Do Event Storming (Summary):
-
-1. **Gather Participants**: Bring together a diverse group of stakeholders including developers, domain experts, designers, and business analysts.
-
-2. **Set the Stage**: Use a large wall or board and plenty of sticky notes and markers. Designate areas for events, commands, processes, and actors.
-
-3. **Explore the Domain**: Start with a broad discussion to identify key events and actors relevant to the domain or system under study. Encourage brainstorming and knowledge sharing.
-
-4. **Model Events**: Capture significant occurrences (events) on sticky notes and arrange them chronologically on the board. This step helps in understanding the flow of activities and triggers within the system.
-
-5. **Define Commands**: Identify actions (commands) triggered by each event. Use different colored sticky notes to differentiate events from commands.
-
-6. **Map Processes**: Connect events and commands to visualize the sequence of actions and interactions in the system. Discuss dependencies, gaps, or areas of ambiguity.
-
-7. **Iterate and Refine**: Continuously refine the model based on insights and discussions emerging during the workshop. Encourage participants to challenge assumptions and explore alternative scenarios.
-
-8. **Document Insights**: As the workshop progresses, document key insights, dependencies, and areas for improvement. These insights will guide future decisions and implementations.
-
-9. **Outcome Visualization**: By the end of the session, the Event Storming board serves as a comprehensive visual representation of the domain, providing clarity on complexities and actionable insights.
-
-10. **Follow-Up and Action**: Use the outcomes of Event Storming to inform decision-making, prototype development, process optimizations, or system redesigns. Ensure that insights gained are translated into actionable steps.
-
-Event Storming not only facilitates a shared understanding among team members but also accelerates innovation and problem-solving by leveraging collective intelligence and visual representation. It's a powerful tool for organizations looking to streamline processes, enhance collaboration, and drive meaningful outcomes in complex domains.
-
 ### Unveiling the Power of Event Storming: Turning Ideas into Action
 
 In the realm of software development and business innovation, effective collaboration and clear communication are often the catalysts for success. **Event Storming**, a dynamic workshop technique, has emerged as a powerful tool for teams to harness collective intelligence, streamline processes, and drive meaningful outcomes. Let's delve into what Event Storming is all about and explore the transformative potential it offers.
@@ -79,3 +49,37 @@ Companies across various industries, from fintech to healthcare and beyond, have
 In conclusion, Event Storming isn’t just a workshop—it’s a catalyst for transformation. It empowers teams to break down silos, understand complex domains, and drive meaningful change. Whether you’re looking to streamline operations, enhance customer experiences, or launch new products, Event Storming equips you with the clarity and direction needed to turn ideas into reality.
 
 Embrace the power of Event Storming and unleash your team’s potential to innovate and thrive in today’s dynamic business landscape.
+
+### How to Model the Domain Afterwards and Establish Boundaries using Fracture Planes of Team Topologies
+
+After conducting an Event Storming workshop to map out the domain and processes, the next crucial step is to refine and model the domain further, ensuring clear boundaries and alignment with team structures. Here’s how you can proceed:
+
+#### 1. **Refining the Domain Model:**
+
+- **Review Workshop Outputs:** Take stock of the Event Storming board and documented insights. Identify key events, commands, processes, and their relationships as captured during the workshop.
+
+- **Identify Aggregates:** Group related events and commands into aggregates—cohesive clusters that represent a single concept or entity within the domain. This helps in defining clear boundaries around specific areas of functionality.
+
+- **Define Entities and Value Objects:** Identify domain entities (objects with unique identities) and value objects (objects defined by their attributes rather than identity) based on the events and commands identified. This step helps in structuring the domain model around meaningful business concepts.
+
+#### 2. **Establishing Bounded Contexts:**
+
+- **Utilize Fracture Planes:** Fracture planes, as defined by Team Topologies, are strategic boundaries that help delineate bounded contexts within a domain. These are based on cognitive load, communication patterns, and deployment dependencies.
+
+- **Align with Team Structures:** Consider existing team structures and communication pathways. Establish bounded contexts that align with these structures, ensuring that each team can independently develop and deploy their part of the system without unnecessary dependencies.
+
+- **Apply Context Mapping:** Use techniques like Context Mapping from Domain-Driven Design (DDD) to visualize and manage the relationships and boundaries between different bounded contexts. This helps in maintaining consistency and clarity in complex systems.
+
+#### 3. **Iterative Refinement:**
+
+- **Feedback Loop:** Engage stakeholders and team members in iterative refinement sessions. Validate the bounded contexts and domain model against real-world scenarios and evolving business requirements.
+
+- **Evolve Over Time:** Recognize that domain models and bounded contexts are not static. They should evolve based on feedback, changes in the business environment, and technological advancements.
+
+#### 4. **Documentation and Communication:**
+
+- **Document Decisions:** Document the rationale behind defining specific bounded contexts and the domain model. This documentation serves as a reference point for future discussions and decisions.
+
+- **Communicate Clearly:** Ensure that all stakeholders have a clear understanding of the bounded contexts and domain model. Effective communication reduces misunderstandings and aligns efforts towards common goals.
+
+By leveraging fracture planes from Team Topologies alongside Domain-Driven Design principles, teams can effectively structure and refine their domain models post-Event Storming. This approach not only clarifies boundaries and responsibilities but also enhances collaboration and agility within complex software systems.
