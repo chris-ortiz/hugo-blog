@@ -1,7 +1,7 @@
 +++
 title = 'Based Architect'
 date = 2024-06-16T13:25:17+02:00
-draft = true
+draft = false
 description = "You need highly intelligent people to conceive truly foolish ideas."
 cascade.featured_image = '/images/lemon-on-horse.png'
 +++
