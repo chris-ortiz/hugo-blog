@@ -2,7 +2,7 @@
 title = 'Big Picture Event Storming'
 date = 2024-06-15T00:05:39+02:00
 draft = false
-cascade.featured_image = '/images/event-storming.png'
+cascade.featured_image = '/images/event-storming.jpg'
 +++
 
 ### Unveiling the Power of Event Storming: Turning Ideas into Action
