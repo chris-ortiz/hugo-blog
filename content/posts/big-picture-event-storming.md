@@ -51,6 +51,30 @@ In conclusion, Event Storming isn’t just a workshop—it’s a catalyst for tr
 
 Embrace the power of Event Storming and unleash your team’s potential to innovate and thrive in today’s dynamic business landscape.
 
+Imagine you've just finished a big picture event storming session, with sticky notes plastered everywhere. Here's how to sift through the chaos and find the hidden gems:
+
+**Bounded Contexts (Think Islands):**
+
+* **Talk Different:**  Did the team suddenly start calling "customers" "clients"? That's a hint you might be on different islands (bounded contexts) with their own lingo.
+* **Swimlane Lanes:** Did the event storming have sections for different departments or processes? Each lane could be a separate island with its own crew (team) and responsibilities.
+* **Focus Areas:**  Think big picture. Can you break down the system into major areas like "Orders" or "Inventory"? These areas could be their own islands with their own complexity.
+
+**Aggregates (Think Units):**
+
+* **Event Starters:**  Who's always at the center of the action? The entity most likely to trigger events could be the captain of a unit (aggregate).
+* **Data Buddies:**  Imagine entities as a group of friends. Which ones need to stick together to make sure their info stays consistent? That tight-knit group might be an aggregate.
+* **Business Boss:**  Who enforces the rules for a specific area? The entity responsible for those rules might be the leader of the pack (aggregate root). 
+
+**Dependencies (Think Connections):**
+
+* **Event Chain Reaction:**  Follow the domino effect of events. If one event sets off a chain reaction in another area, that's a connection (dependency) to keep an eye on.
+* **Data Sharing:**  Are entities from different areas whispering secrets to each other (data exchange)? This could be a dependency you need to manage.
+* **Language Limbo:**  Do terms get a little fuzzy when crossing "islands"?  Clear communication is key to avoid tangled dependencies. 
+
+**Bonus Tip:**  Don't go it alone! Chat with your team about what you found on the event storming map. Refine your ideas and make sure everyone's on the same page. 
+
+Remember, this is just a starting point. The best approach depends on the twists and turns of your specific domain. 
+
 ### How to Model the Domain Afterwards and Establish Boundaries using Fracture Planes of Team Topologies
 
 After conducting an Event Storming workshop to map out the domain and processes, the next crucial step is to refine and model the domain further, ensuring clear boundaries and alignment with team structures. Here’s how you can proceed:
