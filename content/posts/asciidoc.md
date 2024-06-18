@@ -2,7 +2,7 @@
 title = 'Unlocking the Power of AsciiDoc'
 date = 2024-06-18T00:05:39+02:00
 draft = false
-cascade.featured_image = '/images/event-storming.jpg'
+cascade.featured_image = '/images/asciidoc.png'
 +++
 
 # Unlocking the Power of AsciiDoc: The Future of Docs as Code
